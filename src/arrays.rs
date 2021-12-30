@@ -20,4 +20,8 @@ pub fn run() {
     // Get slice (don't have to specify type of the var)
     let slice: &[i32] = &numbers[0..2];
     println!("Slice: {:?}", slice);
+
+    for x in numbers {
+        println!("{}", x);
+    }
 }
